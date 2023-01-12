@@ -1,0 +1,62 @@
+
+.footer-wrap{
+   margin: 3rem 6rem;
+   display: flex;
+   flex-direction: column;
+   background-color:#FFFFFF;
+   border-top: 1px solid #F4511E;
+   padding: 0 3rem;
+   font-weight: 400;
+   color: #0A142F;
+}
+
+.social-handle , .social,  .location , .phone-number, .fax{
+    display: flex;
+}
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+.contact-details{
+    display: flex;
+    justify-content: space-between;
+}
+ .footer-logo{
+  filter: opacity(.2) drop-shadow(0 0 0 black);
+ }
+.footer-icon{
+    color: #F4511E;
+    margin-right: 10px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between; 
+    margin-top: 2rem;
+   
+}
+.footer-bottom ul{
+    display: flex;
+    
+}
+.footer-bottom li{
+    list-style: none;
+    padding-right: 20px;
+}
+.footer-bottom li:hover{
+    color: #F4511E;
+}
+.contact-div{
+    display: flex;
+    flex-direction: column;
+   
+}
+.social-handle p , .phone-number{
+    margin-right: 10px;
+}
+ .social img{
+    margin-right: 10px;
+ }
+ .location , .phone-number, .fax{
+    margin-bottom: 1.5rem;
+ }

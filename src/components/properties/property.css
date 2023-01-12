@@ -1,0 +1,105 @@
+.property{
+    margin:  3rem 6rem;
+    /* background-color: #F5F5F5; */
+}
+.property-top{
+    display:flex;
+    justify-content: space-between;
+    margin: 3rem  0;
+}
+.property-top button{
+   background-color: #F4511E;
+   color: #FFFFFF;
+   padding: 12px 8px;
+   outline: none;
+   border: none;
+   border-radius: 4px;
+   margin-right: 2rem;
+   cursor: pointer;
+}
+.property-list{
+    display: grid;
+    grid-template-columns: 358px 358px 358px;
+    grid-template-rows: auto ;
+    grid-column-gap: 30px;
+    grid-row-gap: 40px;
+    
+}
+
+.property-one{
+    width: 358px;
+    height: auto;
+    border: 1px solid #979797 ;
+    border-radius: 27px;
+}
+.property-details{
+    margin-top: 10px;
+    padding:  0 20px ;
+
+}
+.property-details p{
+    width: 285px;
+    font-size: 20px;
+    color: #000000;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.property-details small{
+    color: #818181;
+}
+.property-details  .price{
+    color: #F4511E;
+    font-size: 24px; 
+    margin-bottom: 10px;
+}
+.property-details-bottom{
+    display: flex;
+    border-top: 1px solid #979797;
+    /* padding: 20px; */
+    justify-content: space-between;
+}
+ .path , .shape{
+    border-right: 1px solid #979797;
+    padding: 10px;
+    width: 33%;
+    text-align: center;
+    align-items: center;
+}
+.property-details-bottom img {
+    margin-right: 8px;
+}
+.size{
+    padding: 10px; 
+    width: 33%;
+    text-align: center;
+}
+.bottom-btns{
+    align-items: center;
+    /* border: 1px solid #BDBDBD; */
+    border-radius: 3px;
+    font-weight: 700;
+    width: 35%;
+    text-align: center;
+    margin: 3.5rem auto;
+}
+.first{
+    background-color: #F3F3F3;
+    color: #BDBDBD ;
+    padding: 10px;
+    border: 1px solid #BDBDBD;
+    border-radius: 5px 0  0 5px;
+}
+ .bottom-btns .one, .bottom-btns .three, .bottom-btns .next{
+   color: #F4511E;
+   padding: 10px;
+   border: 1px solid #BDBDBD;
+}
+.bottom-btns .two{
+    background-color: #F4511E;
+    color: #FFFFFF;
+    padding: 10px;
+    border: 1px solid #F4511E;
+}
+.next{
+    border-radius: 0 5px 5px 0;
+}

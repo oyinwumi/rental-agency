@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.nav-bar{
+    display: flex;
+    padding-top: 0.7rem ;
+    align-items: center;
+    text-align: center;
+    border-bottom: 1px solid #FFFFFF;
+}
+.nav-bar .logo{
+    margin-left: 6rem;
+    padding-bottom: 15px;
+}
+.nav-bar ul{
+    display: flex;
+    margin-left: 10rem;
+}
+.nav-bar li a{
+    padding: 15px 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.nav-bar li{
+    list-style: none;
+}
+.nav-bar li a:hover{
+    color: #F4511E;
+}
