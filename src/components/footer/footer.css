@@ -1,6 +1,6 @@
 
 .footer-wrap{
-   margin: 3rem 6rem;
+   padding: 3rem 6rem;
    display: flex;
    flex-direction: column;
    background-color:#FFFFFF;
@@ -59,4 +59,54 @@
  }
  .location , .phone-number, .fax{
     margin-bottom: 1.5rem;
+ }
+
+ @media only screen and (max-width: 1024px){
+    .footer-wrap{
+        padding: 1.5rem 3rem;
+        align-items: center;
+        justify-content: center;
+        /* display: flex; */
+        /* flex-direction: row; */
+       
+     }
+     .footer-top{
+        flex-direction: column;
+        justify-content: space-between;
+        margin-top: 3rem;
+        align-items: center;
+        justify-content: center;
+    }
+     .footer-logo{
+     width: 100px;
+     height: 100px;
+     
+       }
+       .social-handle ,   .location , .phone-number, .fax {
+       flex-direction: column;
+    }
+    .footer-bottom ul{
+        flex-direction: column;
+    }
+    .social{
+        width:30px;
+        height:30px
+       
+    }
+    .footer-bottom , .contact-details{
+      flex-direction: column;
+        margin-top: 0;
+    }
+    .footer-bottom{
+        padding: 0;
+    }
+    .footer-bottom li{
+      margin-top: 20px;
+    }
+    .footer-bottom p{
+        font-size: 14px;
+        /* text-align: center; */
+        margin-top: 20px;
+    }
+
  }

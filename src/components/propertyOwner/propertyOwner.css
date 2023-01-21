@@ -10,9 +10,8 @@
     font-size: 18px;
     /* width: 90%; */
 }
-
 .owner-profile{
-    display: flex;
+    height: 400px;
     margin-top: 20px;
     align-items: center;
     margin-left: 3rem;
@@ -32,3 +31,32 @@
     font-size: 13px;
     margin: 0;
 }
+@media only screen and (max-width: 1024px){
+    .property-owner{
+        margin: 1.5rem 3rem;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+     }
+     .owner-video iframe{
+        width: 100%;
+        height: 60vh;
+     }
+     .owner-profile{
+        height: auto;
+        margin-top: 20px;
+        width: 100%;
+        margin-left: 0;
+    }
+    .owner-profile img  {
+        width: 40px;
+        height: 40px;
+         margin-right: 15px;
+         margin-left: 3rem;
+    }
+    .owner-details {
+        margin-left: 3rem;
+        margin-bottom: 20px;
+    }
+}
+

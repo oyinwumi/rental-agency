@@ -14,14 +14,14 @@ export default function LivingCost() {
             <p>Pay As Little As possible!</p>
             </div>
               <div className="pay two">
-              <i class="fa-solid fa-house-chimney-crack icons"></i>
+              <i className="fa-solid fa-house-chimney-crack icons"></i>
             <p>Enjoy Wisdom Of Community!</p>
             </div>
             <div className="pay three">
             <i class="fa-solid fa-layer-group icons"></i>
             <p>Let's Somebody Else Take Care Of Landlord!</p>
             </div>
-             <div className="pay four">
+             <div class="pay four">
              <i class="fa-solid fa-seedling icons"></i>
             <p>Enjoy Peaceful Environment!</p>
             </div>

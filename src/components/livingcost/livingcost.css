@@ -1,6 +1,6 @@
 
 .living-cost{
-    margin:  3rem 6rem;
+ padding:  3rem 6rem;
 }
 .living-cost h2{
     font-size: 36px;
@@ -68,4 +68,48 @@
 .six p{
     width: 150px; 
     margin-top: 5px;  
+}
+@media only screen and (max-width: 1024px){
+    .living-cost{
+        padding:  1.5rem 3rem;
+       }
+       .living-cost h2{
+        font-size: 30px;
+        width: 100%;
+    }
+    .living-cost-wrap{
+      flex-direction: column;
+      margin-bottom: 0;
+    }
+    .living-cost-wrap img{
+        width: 100%;
+        align-items: center;
+    }
+    .icons{
+        /* width: 40px;
+        height: 40px;
+        padding: 6px;
+        border-radius: 3px; */
+        margin-top: 0;
+        margin-left: 1.5rem;
+    }
+    .pay{
+        font-size: 18px;
+        font-weight: 600;
+        width: 48%;
+    }
+    .living-cost-icons{
+        display: flex;
+        flex-wrap: wrap;
+       align-items: center;
+        width: 100%;
+        margin-top: 2rem;
+        margin-left: 0;
+     }
+     .one p , .three p{
+        margin-right: 40px;
+     }
+     .three p{
+        width: 180px;
+     }
 }

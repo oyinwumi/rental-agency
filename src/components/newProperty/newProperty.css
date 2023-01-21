@@ -1,6 +1,6 @@
 
 .new-property{
-    margin: 3rem 6rem;
+    padding: 3rem 6rem;
 }
 .new-property h3{
     text-align: center;
@@ -62,7 +62,7 @@ textarea, #upload-photos{
     padding: 10px;
     height: 100px;
 }
-#add-btn{
+.add-btn{
     background-color: #F4511E;
     color: #FFFFFF;
     padding: 12px 8px;
@@ -76,6 +76,47 @@ textarea, #upload-photos{
     text-align: center;
     /* justify-content: center; */
 }
-.add-btn{
+/* .add-btn{
     margin: 3rem  auto;
+} */
+@media only screen and (max-width: 1024px){
+    .new-property{
+        padding: 1.5rem 3rem;
+    }
+    .new-property h3{
+       
+        width: 100%;
+        font-size: 24px;
+    }
+    .form-wrap{
+        width: 100%;
+        padding: 20px;
+    }
+    .bottom-form-div ,.upper-form-div  , .mid-form-div  {
+       flex-direction: column;
+        margin-left: 0;
+        width: 100%;
+        align-items: center;
+    }
+    .upper-form-div input , .mid-form-div select , .bottom-form-div select {
+        padding: 10px;
+        margin: 10px;
+    }
+    #description ,#upload , textarea{
+        margin-left: 0;
+        margin-bottom: 0;
+        
+    }
+    textarea, #upload-photos{
+        margin: 0 ;
+        width: 100%;
+       
+    }
+    .add-btn{
+        padding: 12px 8px;
+        border-radius: 4px;
+        width: 100%;
+        margin: 2rem 0;
+     
+    }
 }

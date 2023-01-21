@@ -61,7 +61,7 @@ export default function NewProperty() {
           <label htmlFor="photo" id='upload'>Upload Photos</label>
           <input type="file" id='upload-photos' placeholder='Drag your images here, or browse Supported:  JPG, JPEG, PNG' />
         
-         <button id='add-btn'>Add A New Property</button>
+         <button className='add-btn'>Add A New Property</button>
          
         </form>
        </div>
